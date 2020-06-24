@@ -1,0 +1,625 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #f3f4f5;
+}
+
+.box1 {
+    display: none;
+}
+
+.checkout-header {
+    position: relative;
+    width: 3.75rem;
+    height: 0.44rem;
+    background-image: linear-gradient(180deg, transparent 50%, #dbdbdb 0);
+    background-size: 100% 1px;
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-color: #fbfbfa;
+}
+
+.header-left {
+    width: 0.44rem;
+    height: 100%;
+    display: block;
+    float: left;
+}
+
+.header-left .header-left-button {
+    display: block;
+    padding: 0.05rem;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.header-left .header-left-button img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.header-title {
+    height: 0.44rem;
+    line-height: 0.44rem;
+    box-sizing: border-box;
+    display: block;
+    padding-left: 0.44rem;
+}
+
+.header-title h1 {
+    font-weight: 400;
+    font-size: 0.18rem;
+    display: block;
+    height: 0.44rem;
+    line-height: 0.44rem;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -0.21rem;
+}
+
+
+
+/* -----------------------------checkout-header----------------------------------- */
+
+
+.J-shopping-cart-empty {
+    width: 3.75rem;
+    height: 3.58rem;
+    position: relative;
+}
+
+.shopping-cart-empty {
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+    padding-top: 0.65rem;
+    padding-bottom: 0.55rem;
+    overflow: hidden;
+}
+
+.bg {
+    width: 3.11rem;
+    height: 1.4rem;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url(../img/index3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.cart {
+    position: relative;
+    width: 1.1rem;
+    height: 1.41rem;
+    margin: 0 auto;
+    background: url(../img/index4.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.shopping-cart-empty h2 {
+    margin-top: 0.2rem;
+    font-size: 0.16rem;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 0.15rem;
+}
+
+.button-primary {
+    width: 1.81rem;
+    height: 0.31rem;
+    line-height: 0.31rem;
+    padding: 0 0.05rem;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #de3c96;
+    color: #de3c96;
+    text-align: center;
+    font-size: 0.15rem;
+    border-radius: 0.05rem;
+}
+
+
+
+/* ------------------------------------------------------- */
+
+
+
+.box2 {
+    display: block;
+    margin-bottom: 1.3rem;
+}
+
+
+.J-safety-tips {
+    width: 3.75rem;
+    height: 0.36rem;
+    position: relative;
+    background-color: #e8eaf4;
+    padding: 0.05rem 0.15rem;
+    box-sizing: border-box;
+    line-height: 0.26rem;
+    font-size: 0.12rem;
+}
+
+.J-safety-tips .safe {
+    width: 0.21rem;
+    height: 0.21rem;
+    padding: 0.025rem 0;
+    margin-right: 0.05rem;
+    float: left;
+}
+
+.J-safety-tips .safe img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.J-receiving-info {
+    width: 3.75rem;
+    height: 0.48rem;
+    position: relative;
+}
+
+.J-receiving-info .list {
+    background-color: #656c89;
+    padding-left: 0.15rem;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.J-receiving-info .list .item-inner {
+    padding: 0.14rem 0.3rem 0.14rem 0;
+    box-sizing: border-box;
+    display: block;
+    color: #fff;
+    font-size: 0.14rem;
+    line-height: 0.2rem;
+}
+
+.J-receiving-info .list .icon-back {
+    width: 0.2rem;
+    height: 0.26rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0.15rem;
+    padding: 0.02rem 0;
+    box-sizing: border-box;
+}
+
+.J-receiving-info .list .icon-back img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ----------------------------------------------------- */
+
+
+
+.J-cart-info {
+    width: 3.75rem;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    margin-top: 0.1rem;
+}
+
+.cart-order-header {
+    width: 3.45rem;
+    padding: 0.06rem 0;
+    margin-left: 0.15rem;
+    margin-right: 0.15rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+}
+
+.cart-order-header h2 {
+    font-size: 13px;
+    line-height: 0.34rem;
+    font-weight: normal;
+}
+
+.normal-product {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.normal-product .cart-order-list {
+    width: 3.45rem;
+    margin: 0 0.15rem;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+
+.normal-product .cart-order-list li {
+    padding: 0.15rem 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.normal-product .cart-order-list li .littleimg {
+    display: block;
+    width: 0.68rem;
+    height: 0.85rem;
+    margin-right: 0.1rem;
+    float: left;
+}
+
+.normal-product .cart-order-list li .littleimg img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.normal-product .cart-order-list li .list-item-info {
+    padding-left: 0.78rem;
+    box-sizing: border-box;
+}
+
+.normal-product .cart-order-list li .list-item-info .meta {
+    width: 100%;
+    display: block;
+}
+
+.normal-product .cart-order-list li .list-item-info .meta .title {
+    padding-right: 0.8rem;
+    margin-bottom: 0.06rem;
+    box-sizing: border-box;
+    color: #222;
+    line-height: 0.17rem;
+    font-size: 0.14rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-orient: vertical;
+    font-weight: normal;
+}
+
+.normal-product .cart-order-list li .list-item-info .meta .size {
+    color: #999;
+    padding-right: 0.8rem;
+    font-size: 0.12rem;
+    margin-bottom: 0.06rem;
+    line-height: 0.17rem;
+}
+
+.normal-product .cart-order-list li .list-item-info .meta .tips-wrapper {
+    margin-bottom: 0.06rem;
+    height: 0.22rem;
+}
+
+.normal-product .tips-wrapper .favorable-tip {
+    background-image: linear-gradient(270deg, #cb78dc, #de3d96);
+    color: #fff;
+    border: none;
+    width: 0.38rem;
+    height: 0.15rem;
+    margin-bottom: 0.07rem;
+    font-size: 0.1rem;
+    text-align: center;
+    line-height: 0.15rem;
+    display: block;
+    border-radius: 0.15rem;
+}
+
+.normal-product .list-item-info .stock {
+    position: relative;
+    height: 0.24rem;
+}
+
+.normal-product .list-item-info .stock .disabled {
+    width: 0.3rem;
+    height: 100%;
+    padding: 0 0.03rem;
+    box-sizing: border-box;
+    float: left;
+    border: 1px solid #e7e7e7;
+    border-radius: 0.03rem 0 0 0.03rem;
+}
+
+.normal-product .list-item-info .stock .disabled .icon-minus {
+    display: block;
+    width: 0.12rem;
+    height: 0.12rem;
+    margin-top: 0.05rem;
+    margin-left: 0.06rem;
+}
+
+.normal-product .list-item-info .stock .disabled .icon-minus img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.normal-product .list-item-info .stock span {
+    float: left;
+    text-align: center;
+    display: block;
+    height: 100%;
+    line-height: 0.2rem;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    color: #595d65;
+    font-size: 0.12rem;
+    width: 0.37rem;
+    width: 0.37rem;
+    box-sizing: border-box;
+}
+
+.normal-product .list-item-info .plus {
+    width: 0.3rem;
+    height: 100%;
+    padding: 0 0.03rem;
+    box-sizing: border-box;
+    float: left;
+    border: 1px solid #e7e7e7;
+    border-radius: 0.03rem 0 0 0.03rem;
+}
+
+.normal-product .list-item-info .plus .icon-plus {
+    display: block;
+    width: 0.12rem;
+    height: 0.12rem;
+    margin-top: 0.05rem;
+    margin-left: 0.06rem;
+}
+
+.normal-product .list-item-info .plus .icon-plus img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.normal-product .list-item-info .stock .delete-product-button {
+    right: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.normal-product .list-item-info .icon-close {
+    display: block;
+    width: 0.12rem;
+    height: 0.12rem;
+}
+
+
+.normal-product .list-item-info .icon-close img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.normal-product .list-item-info .price {
+    position: absolute;
+    right: 0;
+    top: 0.1rem;
+    text-align: right;
+    width: 0.8rem;
+    height: 0.37rem;
+    display: block;
+}
+
+.normal-product .list-item-info .price .original-price {
+    font-size: 0.13rem;
+    margin-bottom: 0.04rem;
+    color: #222;
+    line-height: 0.17rem;
+    display: block;
+    font-weight: 600;
+}
+
+.normal-product .list-item-info .price del {
+    color: #98989f;
+    font-size: 0.11rem;
+    line-height: 0.15rem;
+    text-decoration: line-through;
+    display: block;
+}
+
+
+
+
+.cart-order-footer {
+    width: 3.45rem;
+    height: 1.1rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.total-price {
+    height: 0.48rem;
+    line-height: 0.48rem;
+    font-size: 0.14rem;
+    color: #222;
+    text-align: right;
+    font-weight: 600;
+}
+
+.price-tips {
+    padding-bottom: 0.15rem;
+    box-sizing: border-box;
+}
+
+.price-tips .freight-info {
+    width: 100%;
+    height: 100%;
+}
+
+.price-tips .freight-info .tips-type {
+    float: left;
+    width: 0.35rem;
+    height: 0.18rem;
+    line-height: 0.18rem;
+    overflow: hidden;
+    text-align: center;
+    margin-right: 0.06rem;
+    margin-top: 0.06rem;
+    border: 1px solid rgba(58, 89, 152, .5);
+    border-radius: 0.03rem;
+    color: #3a5998;
+    font-size: 0.12rem;
+}
+
+.freigh-msg {
+    margin-left: 0.41rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-orient: vertical;
+    color: #585c64;
+    font-size: 0.12rem;
+    display: block;
+    line-height: 0.24rem;
+}
+
+
+
+
+/* -------------------------------------------- */
+
+
+
+.J-cart-coupon {
+    width: 100%;
+    height: 0.51rem;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    box-sizing: border-box;
+    background-color: #fff;
+    position: relative;
+    margin-top: 0.2rem;
+    color: #555;
+    line-height: 0.51rem;
+    text-align: left;
+    font-size: 16px;
+}
+
+.J-cart-coupon .icon-back {
+    display: block;
+    width: 0.21rem;
+    position: absolute;
+    top: 50%;
+    right: 0.05rem;
+    transform: translateY(-50%);
+}
+
+.J-cart-coupon .icon-back img {
+    width: 100%;
+    height: 0.21rem;
+    display: block;
+}
+
+
+.J-cart-bonus {
+    width: 100%;
+    height: 0.51rem;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    box-sizing: border-box;
+    background-color: #fff;
+    position: relative;
+    margin-top: 0.15rem;
+    color: #555;
+    line-height: 0.51rem;
+    text-align: left;
+    font-size: 16px;
+}
+
+.J-cart-bonus .icon-back {
+    display: block;
+    width: 0.21rem;
+    position: absolute;
+    top: 50%;
+    right: 0.05rem;
+    transform: translateY(-50%);
+}
+
+.J-cart-bonus .icon-back img {
+    width: 100%;
+    height: 0.21rem;
+    display: block;
+}
+
+
+/* ----------------------------------------------------- */
+
+
+
+.pay-content {
+    width: 100%;
+    height: 1.23rem;
+    padding: 0.15rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.pay-content .total-money {
+    margin-bottom: 0.1rem;
+    text-align: center;
+    font-size: 0.14rem;
+    color: #000;
+    line-height: 0.15rem;
+}
+
+.pay-content .total-money span {
+    color: #e4007f;
+    margin-left: 0.06rem;
+}
+
+.pay-content .btn-group {
+    width: 100%;
+}
+
+.pay-content .btn-group .disabled-delivery-msg {
+    margin-bottom: 0.06rem;
+    color: #98989f;
+    text-align: center;
+    font-size: 0.12rem;
+}
+
+.pay-content .btn-group .btn-delivery {
+    border: 1px solid #caccd2;
+    color: #caccd2;
+    float: left;
+    width: 47%;
+    margin-right: 0.16rem;
+    background-color: #fff;
+    height: 0.45rem;
+    line-height: 0.45rem;
+    text-align: center;
+    font-size: 14px;
+    outline: none;
+}
+
+.pay-content .btn-group .btn-pay-online {
+    border: 1px solid #caccd2;
+    float: left;
+    width: 47%;
+    background-color: #e80080;
+    color: #fff;
+    height: 0.45rem;
+    line-height: 0.45rem;
+    text-align: center;
+    font-size: 14px;
+    outline: none;
+}

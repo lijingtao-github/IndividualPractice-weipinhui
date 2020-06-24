@@ -1,0 +1,362 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.J-simple-header {
+    width: 3.75rem;
+    height: 0.44rem;
+    position: relative;
+}
+
+.header-left {
+    display: block;
+    width: 0.46rem;
+    height: 0.44rem;
+    float: left;
+    padding: 0.1rem 0.12rem;
+    box-sizing: border-box;
+}
+
+.header-left img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.header-right {
+    display: block;
+    width: 0.52rem;
+    height: 100%;
+    padding: 0.1rem 0.15rem;
+    box-sizing: border-box;
+    float: right;
+}
+
+.header-right img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+/* --------------------------------------------- */
+
+
+.J-user-info {
+    width: 100%;
+    height: 2.05rem;
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 0.44rem;
+    background: url(../img/07e0a3f4.user-login-bg.png) no-repeat 0 0;
+    background-size: cover;
+}
+
+.user-photo {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background: url(../img/index9.png) no-repeat 0 0;
+    background-size: cover;
+}
+
+.user-photo img {
+    display: block;
+    width: 0.71rem;
+    height: 0.71rem;
+    margin: 0.045rem;
+}
+
+.user-grade {
+    text-align: center;
+    height: 0.24rem;
+    margin-top: 0.8rem;
+}
+
+.user-grade img {
+    display: block;
+    width: 0.24rem;
+    height: 0.24rem;
+    position: absolute;
+    left: 1.5rem;
+}
+
+.user-grade .desc {
+    display: block;
+    font-size: 0.12rem;
+    color: #98989f;
+    line-height: 0.24rem;
+    margin-left: 0.25rem;
+}
+
+.user-nick {
+    margin-top: 0.1rem;
+    text-align: center;
+    color: #222;
+    font-size: 0.12rem;
+}
+
+
+/* ----------------------------------------------------- */
+
+
+.J-user-order {
+    width: 100%;
+    height: 0.82rem;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.15rem;
+}
+
+.J-user-order li {
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    position: relative;
+}
+
+.J-user-order li .order-icon {
+    height: 0.53rem;
+    padding-top: 0.15rem;
+    margin-bottom: 0.08rem;
+    box-sizing: border-box;
+}
+
+.J-user-order li .order-icon span {
+    display: block;
+    width: 0.38rem;
+    height: 0.38rem;
+    background-color: #fcf9f1;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.J-user-order li .order-icon span img {
+    display: block;
+    width: 0.2rem;
+    height: 0.2rem;
+    padding: 0.09rem;
+}
+
+.J-user-order li .order-desc {
+    width: 100%;
+    padding: 0.08rem 0 0.06rem 0;
+    color: #585c64;
+    font-size: 0.12rem;
+    text-align: center;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+
+
+/* --------------------------------------------------------- */
+
+
+.J-user-menus {
+    width: 3.75rem;
+    height: 7rem;
+    position: relative;
+    margin: 0.3rem 0;
+    background-image: linear-gradient(0deg, transparent 50%, #ccc 0), linear-gradient(180deg, transparent 50%, #ccc 0);
+    background-size: 100% 1px;
+    background-position: top, bottom;
+    background-repeat: repeat-x;
+}
+
+.J-user-menus ul {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.J-user-menus ul .list-item {
+    width: 100%;
+    height: 0.5rem;
+    position: relative;
+    background-color: transparent;
+    font-weight: 400;
+    position: relative;
+}
+
+.J-user-menus ul .list-item .item-content {
+    display: block;
+    width: 3.6rem;
+    margin-left: 0.15rem;
+    box-sizing: border-box;
+}
+
+.J-user-menus ul .list-item .item-content .item-inner {
+    padding: 0.1rem 0.35rem 0.12rem 0;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+}
+
+.J-user-menus ul .list-item .item-content .item-inner .item-title {
+    font-size: 0.16rem;
+    line-height: 0.26rem;
+    color: #000;
+}
+
+.J-user-menus ul .list-item .item-content .icon-back {
+    width: 0.2rem;
+    height: 0.26rem;
+    position: absolute;
+    right: 0.15rem;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+}
+
+.J-user-menus ul .list-item .item-content .icon-back img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* ---------------------------------------------------------------- */
+
+
+.J-user-logout {
+    width: 100%;
+    height: 0.5rem;
+    margin: 0.2rem 0;
+    background-position: top, bottom;
+    background-repeat: repeat-x;
+    background-size: 100% 1px;
+    background-image: linear-gradient(0deg, transparent 50%, #ccc 0), linear-gradient(180deg, transparent 50%, #ccc 0);
+}
+
+.J-user-logout a {
+    display: block;
+    text-align: center;
+    line-height: 0.5rem;
+    font-size: 0.16rem;
+    color: #555;
+}
+
+
+
+/* --------------------------------------------------------------- */
+
+
+
+.J-foot-download {
+    width: 100%;
+    height: 0.62rem;
+    position: relative;
+    padding: 0.1rem 0.15rem;
+    box-sizing: border-box;
+}
+
+.download-text {
+    line-height: 0.42rem;
+    position: absolute;
+    left: 0.15rem;
+    padding-right: 0.7rem;
+    box-sizing: border-box;
+    height: 0.42rem;
+}
+
+.download-text .logo-bg {
+    width: 0.42rem;
+    height: 0.42rem;
+    line-height: 0.42rem;
+    float: left;
+    margin-right: 0.1rem;
+    background: #ea4c88;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    background-image: gradient(linear, left top, left bottom, color-stop(0, #e2007e), color-stop(1, #d40075));
+    border-radius: 0.05rem;
+}
+
+.download-text p {
+    color: #222;
+    font-size: 0.13rem;
+    line-height: 0.42rem;
+    float: left;
+}
+
+.download-btn {
+    width: 0.7rem;
+    height: 0.3rem;
+    position: absolute;
+    right: 0.15rem;
+    color: #cf3e8e;
+    border: 1px solid #cf3e8e;
+    background-color: #f3f4f5;
+    border-radius: 0.03rem;
+    line-height: 0.3rem;
+    text-align: center;
+    font-size: 0.12rem;
+}
+
+
+/* ----------------------------------------------------- */
+
+
+.J-page-footer {
+    width: 100%;
+    height: 1.45rem;
+    position: relative;
+    background-color: #f3f4f5;
+}
+
+.footer-nav {
+    padding: 0.03rem 0.15rem 0 0.15rem;
+    text-align: right;
+    overflow: hidden;
+}
+
+.footer-nav .vip-index {
+    color: #585c64;
+    font-size: 0.16rem;
+    float: left;
+    padding: 0 0.02rem;
+    margin-right: 0.05rem;
+}
+
+.footer-nav .vip-about {
+    float: left;
+    color: #585c64;
+    padding: 0 0.02rem;
+    font-size: 0.16rem;
+}
+
+.footer-nav .footer-users_btn {
+    color: #585c64;
+    font-size: 0.16rem;
+    float: right;
+}
+
+.copyright {
+    color: #ccc;
+    text-align: center;
+    line-height: 0.2rem;
+    padding: 0.08rem 0.15rem 0 0.15rem;
+    font-size: 0.11rem;
+    margin-top: 0.05rem;
+    margin-bottom: 0.1rem;
+}
+
+.psb{
+    width: 3rem;
+    height: 0.61rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.11rem;
+    color: #ccc;
+}

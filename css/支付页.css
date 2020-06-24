@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: #f3f3f3;
+}
+
+.top-bar {
+    width: 100%;
+    height: 0.44rem;
+    line-height: 0.44rem;
+    background: #fff;
+    position: relative;
+    font-size: 16px;
+    text-align: center;
+}
+
+.goBack {
+    width: 0.6rem;
+    height: 100%;
+    line-height: 0.44rem;
+    text-align: center;
+    font-size: 0.14rem;
+    color: #999;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+/* ------------------------------------------------------ */
+
+
+
+.app-body {
+    width: 100%;
+    height: 3.89rem;
+    padding-bottom: 0.7rem;
+}
+
+.content {
+    padding-bottom: 0.1rem;
+    background: #f2fdec;
+}
+
+.steps-box {
+    padding-top: 0.15rem;
+}
+
+.steps-box img {
+    width: 2rem;
+    height: 0.41rem;
+    margin: 0 auto;
+    display: block;
+}
+
+.timer-box {
+    margin-top: 0.15rem;
+    color: #585c64;
+    font-size: 0.12rem;
+    text-align: center;
+}
+
+.method-list {
+    background-color: #fff;
+    width: 100%;
+}
+
+.vcp {
+    height: 0.6rem;
+    width: 3.6rem;
+    margin-left: 0.15rem;
+    position: relative;
+}
+
+.vcp input {
+    position: absolute;
+    visibility: hidden;
+}
+
+.radio-mod {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.radio-mod em {
+    background-color: #fff;
+    color: #fff;
+    border: 1px solid #45c736;
+    padding: 9px;
+    border-radius: 50px;
+    display: block;
+}
+
+.vcp img {
+    width: 0.23rem;
+    height: 0.23rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0.35rem;
+}
+
+.method-list .active em::after {
+    content: " ";
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    position: absolute;
+    top: 4px;
+    background: #45c736;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, .3);
+    left: 4px;
+}
+
+.mutil-text {
+    padding-left: 0.75rem;
+    box-sizing: border-box;
+    line-height: 0.6rem;
+    text-align: left;
+    font-size: 16px;
+    color: #222;
+}
+
+
+
+/* ---------------------------------------------------- */
+
+
+.app-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 15;
+    padding: 0.15rem;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.preview {
+    text-align: center;
+    margin-bottom: 0.1rem;
+    font-size: 0.14rem;
+}
+
+.preview strong {
+    font-size: 0.17rem;
+    font-weight: 600;
+}
+
+.app-footer .button-primary {
+    width: 100%;
+    height: 0.45rem;
+    line-height: 0.45rem;
+    text-align: center;
+    background: #e03897;
+    display: block;
+    color: #fff;
+    border-radius: 0.05rem;
+    font-size: 0.16rem;
+}
